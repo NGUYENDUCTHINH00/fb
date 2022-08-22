@@ -1,0 +1,160 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.mess{
+  padding: 8px 0px 0px;
+  width: 400px;
+  height: 1000px;
+  border: none;
+  overflow: auto;
+  background-color: #F0F2F5;
+}
+.addFr {
+  padding: 20px 0px 4px;
+}
+
+.addFr .addFr1{
+  padding: 0px 16px;
+}
+.addFr a:hover {
+  background-color: #E4E6E9;
+}
+
+.cot1 img{
+  border-radius: 50%;
+  width: 80PX;
+  height: 80px;
+  object-fit: cover;
+}
+
+.to:hover{
+  background-color: #E4E6E9;
+  
+}
+
+.to{
+  display: flex;
+  width: 400px;
+  justify-content: flex-start;
+  height: 125px;
+  cursor: pointer;
+  margin-top: 15px;
+  
+}
+
+.hang2 img{
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+}
+
+
+a{
+  text-decoration: none;
+}
+
+.cot2{
+  width: 100%;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+ 
+.delete button{
+  background-color: #D8DADF;
+  border-color: #D8DADF;
+  border-radius:5px;
+}
+.delete button:hover{
+  background-color: #c1c2c5;
+  border-color: #c1c2c5;
+}
+
+
+
+#icon i:hover{
+  background-color: #D8DADF;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+}
+
+#icon .iconbgr{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#allFr img{
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  margin-left: 15px;
+}
+
+#allFr span{
+  margin-left: 15px;
+  color: #929395;
+}
+
+#allFr div{
+  margin-top: 12px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+}
+
+#allFr div:hover{
+  background-color: #D8DADF;
+  width: 376px;
+  
+}
+
+.box img{
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  margin-left: 15px;
+}
+
+.box span{
+  margin-left: 15px;
+  color: #929395;
+}
+
+.box div{
+  margin-top: 12px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+}
+
+.box div:hover{
+  background-color: #D8DADF;
+  width: 376px;
+}
+.plus i{
+  background-color: #E4E6EB;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.end:hover{
+  background-color: #D8DADF;
+  width: 376px;
+}
